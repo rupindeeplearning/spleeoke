@@ -39,7 +39,7 @@ if st.sidebar.button('Load & Process Video'):
     print(video_name)
     filepath_video = 'YoutubeDownload/{}.{}'.format(title, best.extension)
     filepath_audio = 'YoutubeDownload/audio.wav'
-    os.system('icacls YoutubeDownload /grant Everyone:F /t')    
+    #os.system('icacls YoutubeDownload /grant Everyone:F /t')    
     
     
     filelist = [ f for f in os.listdir(filepath) if (f.endswith('.wav') or (f.endswith('.mp4')))]
