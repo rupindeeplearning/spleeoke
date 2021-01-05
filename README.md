@@ -1,14 +1,15 @@
-# Penguins web app deployed on Heroku
+# Karaoke web app deployed on Heroku
 
-Check out the YouTube video showing the development of this web app at https://www.youtube.com/watch?v=Eai1jaZrRDs
+The deployed web app is live at https://spleeoke.herokuapp.com/
 
-The deployed web app is live at https://dp-penguins.herokuapp.com/
-
-This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island).
+This web app strips vocals from music videos. It uses Spleeter to do the splitting of the vocals from the other sounds, FFMPEG for the other audio visual manipulation and Streamlit for the UI.
 
 The web app was built in Python using the following libraries:
 * streamlit
+* spleeter
 * pandas
-* numpy
-* scikit-learn
-* pickle
+* pafy
+* argparse
+* os
+* re
+* ffmpeg
