@@ -11,3 +11,4 @@ resampy==0.2.2
 spleeter==1.5.4
 streamlit==0.73.1
 numba==0.48.0
+youtube-dl
